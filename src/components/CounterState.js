@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 
 function CounterState() {
   const [count, setCount] = useState(0);
-
   function handleClick() {
     setCount((count) => count + 1);
   }
